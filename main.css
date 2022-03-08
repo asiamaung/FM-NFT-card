@@ -1,0 +1,108 @@
+    /* || General Styles */
+    body{margin:0; padding:0; font-family: Outfit, sans-serif; background-color: hsl(217, 54%, 11%);}
+    p{font-weight: 100; line-height: 1.8em;}
+    ul{list-style-type: none;}
+    
+    /* || Container */ 
+    .container{
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      /*flex setup, centering vertically and horizontally*/
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+     /* || List Elements */
+    ul{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: .5rem 0;
+    }
+
+    ul li {
+      display: flex;
+      align-items: center;
+    }
+
+    ul li img {
+      margin-right: 0.4rem;
+    }
+
+    ul li:first-child{
+      color: hsl(178, 100%, 50%);
+    }
+
+    ul li:last-child{
+      color: hsl(215, 51%, 70%);
+    }
+
+    /* || Card Component */
+    .card{
+      width: 300px; 
+      padding: 20px;
+      background-color: hsl(216, 50%, 16%);
+      color: #fff;
+      border-radius: 10px;
+    }
+
+    /* || Header Image Overlay */
+    .image-container {
+      position: relative;
+      max-width: 100%; 
+      display: flex;
+      align-items: center;
+    }
+
+    .image-container .overlay{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      background-color: hsla(178, 100%, 50%, 0.5);
+      /* hover start */
+      opacity: 0;
+      /* hover transition */
+      transition: opacity .5s;
+      transition: .5 ease;
+      /* flex to center overlay-icon*/
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .image-container:hover .overlay {
+     opacity: 1;
+    }
+
+        /* || Avatar and Credits */
+    .image {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    
+    .avatar{
+      max-width: 32px;
+      border: 2px solid #fff;
+      border-radius: 50%;
+    }
+
+    a{
+      color: #fff;
+      text-decoration: none;
+      transition: color .5s;
+      margin-left: 3px;
+    }
+
+    a:hover{
+      color: hsl(178, 100%, 50%);
+    }
+
