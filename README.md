@@ -8,7 +8,6 @@
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -30,6 +29,8 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://asiamaung.github.io/FM-NFT-card/](https://asiamaung.github.io/FM-NFT-card/)
+
+## My Process
 
 ### Built with
 
